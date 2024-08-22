@@ -1,0 +1,94 @@
+.outer{
+    height: auto;
+    width: 11cm;
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+}
+
+.inner_div1{
+    border: 2px solid;
+    padding: 20px;
+    border-style: double ;
+    border-radius: 5px;
+}
+
+.inner_div2{
+    border: 1px solid;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.dateMonthYear{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.date{
+    border: 1px solid white;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3rem;
+    color: rgb(174, 7, 7);
+    letter-spacing: 10px;
+}
+
+
+.hourMinuteSecond{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 12px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.time{
+    border: 1px solid white;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3rem;
+    color: rgb(174, 7, 7);
+    letter-spacing: 10px;
+    font-family: 'Orbitron', s;
+}
+
+.days{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.temp{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.temp_div{
+    margin: 5px;
+    height: auto;
+    width: auto;
+    border: 1px solid white;
+    padding-left: 10px;
+    border-radius: 3px;
+    letter-spacing: 10px;
+    font-size: 3rem;
+    color: red;
+}
+.ampm{
+    margin-left: 70px;
+}
+
+
+
+

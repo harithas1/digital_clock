@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <article class="outer">
+
+        <div class="inner_div1">
+            <div class="inner_div2">
+
+                <section class="date_sec">
+                    <div class="dateMonthYear">
+                        <span>DATE</span>
+                        <span>MONTH</span>
+                        <span>YEAR</span>
+                    </div>
+                    <div class="date">
+                        <span id="date">13</span>
+                        <span id="month">09</span>
+                        <span id="year">24</span>
+                    </div> 
+                </section>
+
+                <section class="time_sec">
+                    <div class="hourMinuteSecond">
+                        <span>HOUR</span>
+                        <span>MINUTE</span>
+                        <span>SECOND</span>
+                    </div>
+
+                    <div class="time">
+                        <span id="hour" class="hour">15</span>
+                        <span class="colon">:</span>
+                        <span id="minute" class="minutes">02</span>
+                        <span class="colon">:</span>
+                        <span id="second" class="seconds">20</span>
+                    </div>
+                </section>
+                <section class="days">                    
+                    <sub><input type="radio" name="week" id="sun">SUN</sub>                    
+                    <sub><input type="radio" name="week" id="mon">MON</sub>                  
+                    <sub><input type="radio" name="week" id="tue">TUE</sub>                    
+                    <sub><input type="radio" name="week" id="wed">WED</sub>                    
+                    <sub><input type="radio" name="week" id="thu">THU</sub>                    
+                    <sub><input type="radio" name="week" id="fri">FRI</sub>                    
+                    <sub><input type="radio" name="week" id="sat">SAT</sub>
+                </section>
+
+                <section class="temp">
+                    <span>TEMP.<span class="temp_div">29</span>℃</span>
+                    <span class="ampm">
+                        <sub class="am"><input type="radio" name="am/pm" id="am">AM</sub><br>
+                        <sub class="pm"><input type="radio" name="am/pm" id="pm">PM</sub>
+                    </span>
+                </section>
+            </div>
+        </div>
+    </article>
+    <script src="main.js"></script>
+</body>
+</html>
