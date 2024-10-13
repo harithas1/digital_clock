@@ -23,7 +23,7 @@ A simple digital clock application that displays the current time, date, and hig
 - JavaScript
 
 ## Project links
-- [GitHub Repository] (https://github.com/harithas1/digital_clock.git)
+- [GitHub Repository](https://github.com/harithas1/digital_clock.git)
 
-- [Live Demo] (https://harithas1.github.io/digital_clock/) 
+- [Live Demo](https://harithas1.github.io/digital_clock/) 
 
